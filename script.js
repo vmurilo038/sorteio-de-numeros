@@ -10,13 +10,19 @@ function sortear() {
         return;
     }
 
+    if (!Number.isInteger(minimo) || !Number.isInteger(maximo)) {
+
+        alert("Digite apenas números inteiros!");
+        return;
+    }
+
     if (minimo > maximo) {
 
         alert("O número mínimo deve ser menor que o máximo!");
         return;
     }
 
-     if (minimo <= 0) {
+    if (minimo <= 0) {
 
         alert("O número mínimo deve ser positivo!");
         return;

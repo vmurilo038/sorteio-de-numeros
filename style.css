@@ -31,7 +31,7 @@ body {
 }
 
 .dado:hover {
-    transform: scale(1.08) rotate(5deg);
+    transform: rotate(5deg);
     width: 70px;
     height: 70px;
 }
